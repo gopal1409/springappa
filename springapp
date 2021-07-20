@@ -1,0 +1,19 @@
+@PostMapping
+	public String createProduct() {
+		return "HTTP Post Handle";
+	}
+	
+	@GetMapping
+	public String getProduct() {
+		return "HTTP get Handle";
+	}
+	@PutMapping
+	public String updateProduct() {
+		return "HTTP get Handle";
+	}
+	
+	@DeleteMapping
+	public String deleteProduct() {
+		return "HTTP get Handle";
+	}
+	
